@@ -1,0 +1,12 @@
+# Makefile for kCompanion client
+
+CC = gcc
+CFLAGS = -Wall -Wextra -O2
+
+all: kcompanion_client
+
+kcompanion_client: kcompanion_client.c kcompanion_client.h
+	$(CC) $(CFLAGS) -o kcompanion_client kcompanion_client.c
+
+clean:
+	rm -f kcompanion_client
