@@ -1,5 +1,6 @@
 # kCompanion: AI-Driven System Companion
-
+Basic installation sudo chmod +x setup.sh
+sudo ./setup.sh
 This project implements an AI-driven system companion for Linux with a hybrid architecture:
 
 1. **Kernel Module**: Collects system metrics efficiently and provides real-time monitoring
